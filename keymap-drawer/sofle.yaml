@@ -460,3 +460,5 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [0, 1, 2]
   k: {t: Flash, h: toggle}
+- p: [42, 43]
+  k: Sft+ Ins
