@@ -81,7 +81,7 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <13 14>;
+            key-positions = <0 1>;
         };
     };
 
