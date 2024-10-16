@@ -261,9 +261,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Flash:
-  - {t: '&flash_macro', type: held alternate}
-  - {type: held alternate}
-  - {type: held alternate}
+  - '&flash_macro'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -458,7 +458,5 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-- p: [0, 1, 2]
-  k: Flash
 - p: [42, 43]
   k: Sft+ Ins
