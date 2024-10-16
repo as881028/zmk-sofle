@@ -130,6 +130,7 @@
             >;
 
             label = "Navi";
+            sensor-bindings = <&inc_dec_kp LG(RIGHT) LG(LEFT_ARROW)>;
         };
 
         Symbol {
