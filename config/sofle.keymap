@@ -26,6 +26,20 @@
             #binding-cells = <0>;
             bindings = <&bootloader>;
         };
+
+        pp: pp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(P) &kp A &kp DLLR &kp DLLR &kp W &kp N0 &kp R &kp D &kp N3 &kp N4 &kp N5 &kp N6 &kp RET>;
+            label = "PP";
+        };
+
+        snake: snake {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp G &kp K &kp N6 &kp S &kp M &kp N3 &kp J &kp SEMI &kp N6 &kp RET>;
+            label = "SNAKE";
+        };
     };
 
     behaviors {
@@ -109,8 +123,8 @@
         Navi {
             bindings = <
 &trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&pp     &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
+&snake  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
 &trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
             >;
