@@ -102,6 +102,11 @@
             bindings = <&to 4>;
             key-positions = <0 1 2>;
         };
+
+        si {
+            bindings = <&kp LS(INSERT)>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {
