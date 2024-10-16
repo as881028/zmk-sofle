@@ -127,11 +127,11 @@
 
         Navi {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
-&pp     &trans        &kp INS       &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
-&snake  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &kp DEL       &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
+&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&pp     &trans        &kp INS       &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&snake  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans        &kp DEL       &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans  &trans          &trans          &trans           &trans
             >;
 
             label = "Navi";
