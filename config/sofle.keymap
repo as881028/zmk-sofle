@@ -150,6 +150,7 @@
             >;
 
             label = "Symbol";
+            sensor-bindings = <&inc_dec_kp LC(A) LC(X)>;
         };
 
         Modify {
