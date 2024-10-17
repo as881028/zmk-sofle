@@ -164,7 +164,7 @@
 &trans   &trans        &trans        &trans     &trans     &trans            &trans  &trans           &trans           &kp KP_NUMBER_0  &trans           &trans
             >;
 
-            label = "Modify";
+            label = "Num";
         };
 
         Flash {
