@@ -527,3 +527,7 @@ combos:
   k: Sft+ Ins
 - p: [42, 41]
   k: Ctl+ C
+- p: [35, 36]
+  k: '&caright'
+- p: [35, 34]
+  k: '&caleft'
