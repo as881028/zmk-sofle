@@ -126,12 +126,12 @@
             key-positions = <42 41>;
         };
 
-        ctr {
+        ctrl+alt+right {
             bindings = <&caright>;
             key-positions = <35 36>;
         };
 
-        ctl {
+        ctrl+alt+left {
             bindings = <&caleft>;
             key-positions = <35 34>;
         };
