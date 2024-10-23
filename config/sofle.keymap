@@ -40,6 +40,20 @@
             bindings = <&none &kp G &kp K &kp N6 &kp S &kp M &kp N3 &kp J &kp SEMI &kp N6 &kp RET>;
             label = "SNAKE";
         };
+
+        caleft: caleft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(LEFT))>;
+            label = "CALEFT";
+        };
+
+        caright: caright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(RIGHT))>;
+            label = "CARIGHT";
+        };
     };
 
     behaviors {
@@ -110,6 +124,16 @@
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <42 41>;
+        };
+
+        ctr {
+            bindings = <&caright>;
+            key-positions = <35 36>;
+        };
+
+        ctl {
+            bindings = <&caleft>;
+            key-positions = <35 34>;
         };
     };
 
