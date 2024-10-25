@@ -531,3 +531,5 @@ combos:
   k: '&caright'
 - p: [35, 34]
   k: '&caleft'
+- p: [12, 11, 10]
+  k: {t: Rgb, h: toggle}
