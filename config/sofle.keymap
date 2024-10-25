@@ -135,6 +135,11 @@
             bindings = <&caleft>;
             key-positions = <35 34>;
         };
+
+        RGB {
+            bindings = <&to 5>;
+            key-positions = <12 11 10>;
+        };
     };
 
     keymap {
