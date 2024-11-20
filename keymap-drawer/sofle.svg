@@ -375,7 +375,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-esc"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
 </g>
 <g transform="translate(84, 112)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -441,8 +441,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 168)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-caps"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g transform="translate(84, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -688,8 +687,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1052,8 +1051,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1418,8 +1417,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1807,8 +1806,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2178,8 +2177,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2571,8 +2570,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2946,14 +2945,14 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 2718)" class="layer-onlyeng">
-<text x="0" y="28" class="label" id="onlyeng">onlyeng:</text>
+<g transform="translate(40, 2718)" class="layer-eng">
+<text x="0" y="28" class="label" id="eng">eng:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3331,8 +3330,8 @@ rect.held, rect.combo.held {
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
-<a href="#onlyeng">
-<text x="140" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">onlyeng</tspan></text>
+<a href="#eng">
+<text x="140" y="152" class="combo tap layer-activator">eng</text>
 </a><text x="140" y="163" class="combo hold">toggle</text>
 </g>
 </g>
