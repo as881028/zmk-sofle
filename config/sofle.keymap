@@ -54,6 +54,20 @@
             bindings = <&kp LC(LA(RIGHT))>;
             label = "CARIGHT";
         };
+
+        sworkspaceright: sworkspaceright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(RIGHT)>;
+            label = "SWORKSPACERIGHT";
+        };
+
+        sworkspaceleft: sworkspaceleft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LEFT)>;
+            label = "SWORKSPACELEFT";
+        };
     };
 
     behaviors {
@@ -144,6 +158,16 @@
         changetoeng {
             bindings = <&to 7>;
             key-positions = <27 28 29>;
+        };
+
+        winright {
+            bindings = <&sworkspaceright>;
+            key-positions = <35 36 37>;
+        };
+
+        winleft {
+            bindings = <&sworkspaceleft>;
+            key-positions = <35 34 33>;
         };
     };
 
