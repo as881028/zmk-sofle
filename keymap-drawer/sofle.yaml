@@ -535,3 +535,7 @@ combos:
   k: {t: Rgb, h: toggle}
 - p: [27, 28, 29]
   k: {t: eng, h: toggle}
+- p: [35, 36, 37]
+  k: '&sworkspaceright'
+- p: [35, 34, 33]
+  k: '&sworkspaceleft'
