@@ -162,7 +162,7 @@
 
         winright {
             bindings = <&sworkspaceright>;
-            key-positions = <35 36 37>;
+            key-positions = <35 34 36>;
         };
 
         winleft {
